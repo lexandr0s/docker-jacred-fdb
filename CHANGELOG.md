@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.1.2...v1.2.0) (2025-09-05)
+
+### Features
+
+* **ci:** add Docker Hub registry support ([#5](https://github.com/pavelpikta/docker-jacred-fdb/issues/5)) ([2d8784a](https://github.com/pavelpikta/docker-jacred-fdb/commit/2d8784aab77dcdf87a9e63548cd00715abeab7c3))
+
 ## [1.1.2](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.1.1...v1.1.2) (2025-09-05)
 
 ### Bug Fixes
