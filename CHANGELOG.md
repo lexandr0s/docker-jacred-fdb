@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.1.0...v1.1.1) (2025-09-05)
+
+### Bug Fixes
+
+* **ci:** permissions to attaching sbom's ([3ccde2e](https://github.com/pavelpikta/docker-jacred-fdb/commit/3ccde2eb3c813a94c62f0e73e0beb65ac62854bf))
+
 ## [1.1.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.0.3...v1.1.0) (2025-09-05)
 
 ### Features
