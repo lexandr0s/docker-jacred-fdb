@@ -76,6 +76,12 @@ RUN --mount=type=cache,target=/home/builduser/.nuget/packages,uid=10001,gid=1000
     -p:IlcFoldIdenticalMethodBodies=true \
     || { echo "dotnet publish failed" >&2; exit 1; }
 
+
+##################### ###########################################################
+# Static ffmpeg / ffbrobe
+################################################################################
+FROM --platform=$BUILDPLATFORM mwader/static-ffmpeg:8.0 AS static-ffmpeg
+
 ################################################################################
 # Runtime stage - unchanged
 ################################################################################
@@ -115,8 +121,9 @@ RUN set -eux; \
 
 WORKDIR /app
 
-# Copy application, init configuration, entrypoint
+# Copy application, ffprobe,init configuration, entrypoint
 COPY --from=build --chown=jacred:jacred --chmod=550 /dist/ /app/
+COPY --from=static-ffmpeg --chmod=755 /ffprobe /usr/bin/
 COPY --chown=jacred:jacred --chmod=640 init.conf /app/init.conf
 COPY --chown=jacred:jacred --chmod=550 entrypoint.sh /entrypoint.sh
 
