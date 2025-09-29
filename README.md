@@ -8,6 +8,8 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![License](https://img.shields.io/github/license/pavelpikta/docker-jacred-fdb?color=blue)](https://github.com/pavelpikta/docker-jacred-fdb/blob/main/LICENSE)
 
+[![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/pavelpikta/docker-jacred-fdb)
+
 A Docker image for [Jacred](https://github.com/immisterio/jacred-fdb) - a torrent tracker aggregator that provides a unified API for multiple torrent trackers. This containerized implementation offers enhanced security, multi-architecture support, and automated CI/CD workflows.
 
 ## 🚀 Features
