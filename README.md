@@ -142,7 +142,8 @@ The container automatically creates an initial configuration file (`init.conf`) 
 The Docker image uses a multi-stage build process:
 
 1. **Builder Stage**: Compiles Jacred from source using .NET 9 SDK
-2. **Runtime Stage**: Minimal Alpine Linux with only required dependencies
+2. **Static ffmpeg/ffprobe Stage**: Provides statically compiled ffmpeg and ffprobe for media processing
+3. **Runtime Stage**: Minimal Alpine Linux with only required dependencies
 
 ### Optimization Features
 
