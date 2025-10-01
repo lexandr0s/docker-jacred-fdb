@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.7.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.7.0...v1.7.1) (2025-10-01)
+
+### Bug Fixes
+
+* static-ffmpeg docker build stage ([#11](https://github.com/pavelpikta/docker-jacred-fdb/issues/11)) ([7996a9e](https://github.com/pavelpikta/docker-jacred-fdb/commit/7996a9e64ce260001ee154b4ab465a0fda71e047))
+
+### CI/CD
+
+* trigger workflow on changes to workflows files, Dockerfile, entrypoint and config ([11d1860](https://github.com/pavelpikta/docker-jacred-fdb/commit/11d18601cbcbba76c00ef78d6f556c2540be4fb7))
+* trigger workflow on changes to workflows files, update docs ([#10](https://github.com/pavelpikta/docker-jacred-fdb/issues/10)) ([ec146da](https://github.com/pavelpikta/docker-jacred-fdb/commit/ec146da822f7d97ad177b310fc64b27c4e7a4516))
+* **deps:** bump docker/login-action from 3.5.0 to 3.6.0 ([#9](https://github.com/pavelpikta/docker-jacred-fdb/issues/9)) ([fb105f4](https://github.com/pavelpikta/docker-jacred-fdb/commit/fb105f4c9368cf302520c3fdb7d1fea3a6b06073))
+
+### Other
+
+* add DeepWiki badge ([060d909](https://github.com/pavelpikta/docker-jacred-fdb/commit/060d909eb41e8068395a548e6d7ab102e68e8007))
+* **docs:** update description for docker build stages ([259d185](https://github.com/pavelpikta/docker-jacred-fdb/commit/259d185d324707fb531ed020987e5548a72d23e7))
+* **docs:** update dotnet version from `8` to `9` ([c34e62a](https://github.com/pavelpikta/docker-jacred-fdb/commit/c34e62a720bd59599753d937e49da28362db3ecc))
+
 ## [1.7.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.6.0...v1.7.0) (2025-09-29)
 
 ### Features
