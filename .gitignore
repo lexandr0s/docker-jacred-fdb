@@ -1,0 +1,77 @@
+# Start of .gitignore
+
+# --- OS / Filesystem clutter ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.orig
+*.rej
+
+# --- VCS / tooling meta (self) ---
+.gitignore~
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.iml
+.fleet/
+.history/
+.project
+.classpath
+.settings/
+
+# --- Logs & runtime noise ---
+logs/
+*.log
+*.log.*
+
+# --- Temp / cache directories ---
+tmp/
+temp/
+.cache/
+
+# --- Environment & secrets ---
+.env
+.env.*
+!*.example
+*.secret
+secrets/**
+
+# --- Docker related ---
+*.tar
+*.tar.*
+*.tgz
+*.gz
+
+# If you create local volume bind mounts for testing
+data/
+volumes/
+
+# --- Archives / backups ---
+*.bak
+*.old
+*.backup
+*.zip
+
+# --- Binary artifacts ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.a
+
+# -----------------------------------------------------------------------------
+# Allowlist (ensure these stay tracked even if patterns expand)
+# -----------------------------------------------------------------------------
+!Dockerfile
+!entrypoint.sh
+!init.conf
+!LICENSE
+!README.md
+!CHANGELOG.md
+
+# End of .gitignore

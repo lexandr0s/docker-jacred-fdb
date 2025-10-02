@@ -1,0 +1,54 @@
+# Start of .dockerignore
+
+# Version control
+.git
+.gitignore
+
+# OS / filesystem noise
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Editor / IDE metadata
+.vscode/
+.idea/
+*.iml
+
+# Logs & temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Environment & secrets (allow an example file)
+.env
+.env.*
+!.env.example
+
+# Docker / compose auxiliary files not needed inside image
+docker-compose.yml
+docker-compose.*.yml
+
+# CI / configuration not required at runtime
+.github/
+
+# Build outputs / distributions
+build/
+dist/
+out/
+
+# Cache directories
+.cache/
+
+# ----------------------------------------------------------------------------
+# Allowlist
+# ----------------------------------------------------------------------------
+!Dockerfile
+!entrypoint.sh
+!init.conf
+!LICENSE
+!README.md
+!CHANGELOG.md
+
+# End of .dockerignore
