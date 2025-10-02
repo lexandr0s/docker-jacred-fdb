@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.7.2](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.7.1...v1.7.2) (2025-10-02)
+
+### Bug Fixes
+
+* install apk ffmpeg package instead of static-ffmpeg stage ([#12](https://github.com/pavelpikta/docker-jacred-fdb/issues/12)) ([0f17c5b](https://github.com/pavelpikta/docker-jacred-fdb/commit/0f17c5b8aff3009ae979c785b554f8f0308fe9bb))
+
 ## [1.7.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.7.0...v1.7.1) (2025-10-01)
 
 ### Bug Fixes
