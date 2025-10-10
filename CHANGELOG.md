@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.8.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.7.3...v1.8.0) (2025-10-10)
+
+### CI/CD
+
+* **deps:** bump cycjimmy/semantic-release-action from 5.0.0 to 5.0.1 ([#13](https://github.com/pavelpikta/docker-jacred-fdb/issues/13)) ([4090da5](https://github.com/pavelpikta/docker-jacred-fdb/commit/4090da58f725535ce57a63b6b8b46b8c18f11f62))
+* **deps:** bump cycjimmy/semantic-release-action from 5.0.1 to 5.0.2 ([#14](https://github.com/pavelpikta/docker-jacred-fdb/issues/14)) ([695bc49](https://github.com/pavelpikta/docker-jacred-fdb/commit/695bc49671c0afd99ca6389f8944d10577ea8cae))
+
+### Docs
+
+* add Russian README and maintenance guidance ([5aa274a](https://github.com/pavelpikta/docker-jacred-fdb/commit/5aa274aef786a71d6fa57790f27a93aac0e0ac98))
+* update DeepWiki badge ([c309b46](https://github.com/pavelpikta/docker-jacred-fdb/commit/c309b463c07b585b9e251717705931f597fb9e6a))
+
+### Features
+
+* **config:** introduce disable_trackers and adjust tracking defaults ([a0ef976](https://github.com/pavelpikta/docker-jacred-fdb/commit/a0ef976ac27b418b2cc81840dcfcba1e4892c225))
+
+### Refactor
+
+* **ci:** use variable for semantic-release version ([2125767](https://github.com/pavelpikta/docker-jacred-fdb/commit/21257676d318b72d5a3f045d63143812604ed116))
+
 ## [1.7.3](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.7.2...v1.7.3) (2025-10-09)
 
 ### CI/CD
