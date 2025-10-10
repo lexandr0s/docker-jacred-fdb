@@ -10,7 +10,7 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![License](https://img.shields.io/github/license/pavelpikta/docker-jacred-fdb?color=blue)](https://github.com/pavelpikta/docker-jacred-fdb/blob/main/LICENSE)
 
-[![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/pavelpikta/docker-jacred-fdb)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/pavelpikta/docker-jacred-fdb)
 
 Docker-образ для [Jacred](https://github.com/immisterio/jacred-fdb) — агрегатора торрент-трекеров, предоставляющего унифицированный API для множества источников. Контейнерная реализация обеспечивает повышенную безопасность, мультиархитектурную поддержку и автоматизированные CI/CD-процессы.
 
