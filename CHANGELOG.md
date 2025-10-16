@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.2](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.1...v1.8.2) (2025-10-16)
+
+### CI/CD
+
+* **config:** disable logging by default to save storage ([48ffc11](https://github.com/pavelpikta/docker-jacred-fdb/commit/48ffc11a067e54452b03d416439eb7195bc26b9a))
+
 ## [1.8.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.0...v1.8.1) (2025-10-16)
 
 ### CI/CD
