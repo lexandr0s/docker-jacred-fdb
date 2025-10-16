@@ -118,7 +118,7 @@ The container automatically creates an initial configuration file (`init.conf`) 
   "mergeduplicates": true,
   "openstats": true,
   "opensync": true,
-  "log": true,
+  "log": false,
   "syncapi": "http://redapi.cfhttp.top",
   "synctrackers": ["rutracker", "rutor", "kinozal", "nnmclub", "megapeer", "bitru", "toloka", "lostfilm", "baibako", "torrentby", "selezen"],
   "disable_trackers": ["hdrezka", "anifilm", "anilibria"],
