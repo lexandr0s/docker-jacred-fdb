@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.4](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.3...v1.8.4) (2025-10-17)
+
+### Docs
+
+* update docker-compose example ([4028eed](https://github.com/pavelpikta/docker-jacred-fdb/commit/4028eedd873828a893019772b017a48623cefd86))
+
 ## [1.8.3](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.2...v1.8.3) (2025-10-17)
 
 ### CI/CD
