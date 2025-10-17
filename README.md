@@ -41,7 +41,7 @@ docker run -d \
 ### Docker Compose
 
 ```yaml
-version: '3.8'
+name: jacred
 
 services:
   jacred:
@@ -62,6 +62,10 @@ services:
       timeout: 15s
       retries: 3
       start_period: 45s
+    deploy:
+      resources:
+        limits:
+          memory: 2048M
 
 volumes:
   jacred-config:
@@ -169,8 +173,7 @@ The container automatically creates an initial configuration file (`init.conf`) 
 The Docker image uses a multi-stage build process:
 
 1. **Builder Stage**: Compiles Jacred from source using .NET 9 SDK
-2. **Static ffmpeg/ffprobe Stage**: Provides statically compiled ffmpeg and ffprobe for media processing
-3. **Runtime Stage**: Minimal Alpine Linux with only required dependencies
+2. **Runtime Stage**: Minimal Alpine Linux with only required dependencies
 
 ### Optimization Features
 

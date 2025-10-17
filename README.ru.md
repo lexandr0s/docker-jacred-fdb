@@ -41,7 +41,7 @@ docker run -d \
 ### Docker Compose
 
 ```yaml
-version: '3.8'
+name: jacred
 
 services:
   jacred:
@@ -62,6 +62,10 @@ services:
       timeout: 15s
       retries: 3
       start_period: 45s
+    deploy:
+      resources:
+        limits:
+          memory: 2048M
 
 volumes:
   jacred-config:
