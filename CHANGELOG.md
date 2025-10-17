@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.3](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.2...v1.8.3) (2025-10-17)
+
+### CI/CD
+
+* **deps:** bump anchore/sbom-action from 0.20.7 to 0.20.8 ([#16](https://github.com/pavelpikta/docker-jacred-fdb/issues/16)) ([e58979f](https://github.com/pavelpikta/docker-jacred-fdb/commit/e58979f646c5673a8e8be239f0ff51fe1fda8a19))
+
 ## [1.8.2](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.1...v1.8.2) (2025-10-16)
 
 ### CI/CD
