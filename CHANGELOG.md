@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.12](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.11...v1.8.12) (2025-11-28)
+
+### CI/CD
+
+* **deps:** bump docker/metadata-action from 5.9.0 to 5.10.0 ([#25](https://github.com/pavelpikta/docker-jacred-fdb/issues/25)) ([8f13965](https://github.com/pavelpikta/docker-jacred-fdb/commit/8f139653145b1cd311dec9e77a83a8783cdff2c9))
+
 ## [1.8.11](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.10...v1.8.11) (2025-11-21)
 
 ### CI/CD
