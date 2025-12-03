@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.10.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.9.0...v1.10.0) (2025-12-03)
+
+### CI/CD
+
+* **deps:** bump actions/checkout from 6.0.0 to 6.0.1 ([#26](https://github.com/pavelpikta/docker-jacred-fdb/issues/26)) ([6a151ed](https://github.com/pavelpikta/docker-jacred-fdb/commit/6a151ed77de80dcba373ba137cbea69446dd4846))
+
+### Features
+
+* update ALPINE_VERSION to 3.23.0 ([58eb8a3](https://github.com/pavelpikta/docker-jacred-fdb/commit/58eb8a34d75bf9bef3cdb13673cc05a325ec8ac6))
+
 ## [1.9.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.8.12...v1.9.0) (2025-11-28)
 
 ### Features
