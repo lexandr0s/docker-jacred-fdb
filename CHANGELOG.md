@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.13.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.13.0...v1.13.1) (2026-01-16)
+
+### CI/CD
+
+* add artifact-metadata permission to workflows ([9733648](https://github.com/pavelpikta/docker-jacred-fdb/commit/973364859f46c60533b8899f949a6e4b7bdf063f))
+
 ## [1.13.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.12.4...v1.13.0) (2026-01-12)
 
 ### Features
