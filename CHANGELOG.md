@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.14.0...v1.14.1) (2026-01-25)
+
+### CI/CD
+
+* **deps:** bump actions/checkout from 6.0.1 to 6.0.2 ([#35](https://github.com/pavelpikta/docker-jacred-fdb/issues/35)) ([6b218ec](https://github.com/pavelpikta/docker-jacred-fdb/commit/6b218ec3f7ba31ebe124bde89e95e97d3e6d0ad6))
+* **deps:** bump anchore/sbom-action from 0.21.1 to 0.22.0 ([#34](https://github.com/pavelpikta/docker-jacred-fdb/issues/34)) ([c67d975](https://github.com/pavelpikta/docker-jacred-fdb/commit/c67d9757d47616a5b283733339fded80fe309ff5))
+
 ## [1.14.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.13.1...v1.14.0) (2026-01-20)
 
 ### Features
