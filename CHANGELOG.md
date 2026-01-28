@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.15.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.14.1...v1.15.0) (2026-01-28)
+
+### CI/CD
+
+* **deps:** bump actions/attest-build-provenance from 3.1.0 to 3.2.0 ([#36](https://github.com/pavelpikta/docker-jacred-fdb/issues/36)) ([03d1fa7](https://github.com/pavelpikta/docker-jacred-fdb/commit/03d1fa7629e863f207acf912e26525960261b96f))
+* **deps:** bump anchore/sbom-action from 0.22.0 to 0.22.1 ([#37](https://github.com/pavelpikta/docker-jacred-fdb/issues/37)) ([2d5d53f](https://github.com/pavelpikta/docker-jacred-fdb/commit/2d5d53f8a7d4cb8b858bd235f481ac2fe494d2ea))
+
+### Features
+
+* update `ALPINE_VERSION` to `3.23.3` ([b24d644](https://github.com/pavelpikta/docker-jacred-fdb/commit/b24d644e59769e84f676931657301e50fa5d5eb3))
+
 ## [1.14.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.14.0...v1.14.1) (2026-01-25)
 
 ### CI/CD
