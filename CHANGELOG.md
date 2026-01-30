@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.0.0](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.15.1...v2.0.0) (2026-01-30)
+
+### ⚠ BREAKING CHANGES
+
+* CHANGE: Image now builds from github.com/pavelpikta/jacred-fdb
+instead of github.com/immisterio/jacred-fdb. `JACRED_VERSION` updated to
+`e39841d1a6b7c5ff154488b5bb4246d4683bb500`.
+
+Signed-off-by: Pavel Pikta <pavel_pikta@epam.com>
+
+### Features
+
+* switch Jacred source to pavelpikta/jacred-fdb ([443607b](https://github.com/pavelpikta/docker-jacred-fdb/commit/443607b9452bc0bdb24a72b715e03693b2e17947))
+
 ## [1.15.1](https://github.com/pavelpikta/docker-jacred-fdb/compare/v1.15.0...v1.15.1) (2026-01-29)
 
 ### CI/CD
