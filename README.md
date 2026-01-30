@@ -12,7 +12,7 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/pavelpikta/docker-jacred-fdb)
 
-A Docker image for [Jacred](https://github.com/immisterio/jacred-fdb) - a torrent tracker aggregator that provides a unified API for multiple torrent trackers. This containerized implementation offers enhanced security, multi-architecture support, and automated CI/CD workflows.
+A Docker image for [Jacred](https://github.com/pavelpikta/jacred-fdb) - a torrent tracker aggregator that provides a unified API for multiple torrent trackers. This containerized implementation offers enhanced security, multi-architecture support, and automated CI/CD workflows.
 
 ## 🚀 Features
 
@@ -360,7 +360,7 @@ This project is licensed under the [Apache License 2.0](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- [Jacred-FDB](https://github.com/immisterio/jacred-fdb) - The amazing torrent tracker aggregator
+- [Jacred-FDB](https://github.com/pavelpikta/jacred-fdb) - The amazing torrent tracker aggregator
 - [Alpine Linux](https://alpinelinux.org/) - Secure, lightweight base image
 - [GitHub Actions](https://github.com/features/actions) - CI/CD automation
 - [Semantic Release](https://semantic-release.gitbook.io/) - Automated versioning

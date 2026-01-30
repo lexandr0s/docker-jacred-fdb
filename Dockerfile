@@ -1,5 +1,5 @@
 ARG ALPINE_VERSION=3.23.3
-ARG JACRED_VERSION=96c1cff46792d921302d59b2f01c6e70d2654c22
+ARG JACRED_VERSION=e39841d1a6b7c5ff154488b5bb4246d4683bb500
 ARG DOTNET_VERSION=10.0
 
 ################################################################################
@@ -46,7 +46,7 @@ ENV NUGET_PACKAGES=/home/builduser/.nuget/packages \
 
 # Git operations
 RUN git init . \
-    && git remote add origin https://github.com/immisterio/jacred-fdb.git \
+    && git remote add origin https://github.com/pavelpikta/jacred-fdb.git \
     && git fetch --depth 1 origin "$JACRED_VERSION" \
     && git checkout FETCH_HEAD
 
